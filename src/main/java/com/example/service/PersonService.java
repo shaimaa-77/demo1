@@ -18,7 +18,12 @@ public class PersonService {
 		p.setFirstName("Khaled");
 		p.setLastName("Amrosy");
 		persons.add(p);
-
+                Person p = new Person();
+		p.setId("1");
+		p.setAge(21);
+		p.setFirstName("nabil");
+		p.setLastName("nabil");
+		persons.add(p);
 		p = new Person();
 		p.setId("2");
 		p.setAge(25);
@@ -38,6 +43,18 @@ public class PersonService {
 		p.setAge(25);
 		p.setFirstName("AbdulHalim");
 		p.setLastName("Mahmoud");
+		persons.add(p);
+		p = new Person();
+		p.setId("4");
+		p.setAge(25);
+		p.setFirstName("salah");
+		p.setLastName("salah");
+		persons.add(p);
+		p = new Person();
+		p.setId("55");
+		p.setAge(25);
+		p.setFirstName("dd");
+		p.setLastName("dd");
 		persons.add(p);
 		
 	}
